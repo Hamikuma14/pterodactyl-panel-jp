@@ -2,25 +2,26 @@
 
 return [
     'notices' => [
-        'created' => 'A new nest, :name, has been successfully created.',
-        'deleted' => 'Successfully deleted the requested nest from the Panel.',
-        'updated' => 'Successfully updated the nest configuration options.',
+        'created' => '新しい Nest「:name」を作成しました。',
+        'deleted' => '指定された Nest をパネルから削除しました。',
+        'updated' => 'Nest の設定オプションを更新しました。',
     ],
     'eggs' => [
         'notices' => [
-            'imported' => 'Successfully imported this Egg and its associated variables.',
-            'updated_via_import' => 'This Egg has been updated using the file provided.',
-            'deleted' => 'Successfully deleted the requested egg from the Panel.',
-            'updated' => 'Egg configuration has been updated successfully.',
-            'script_updated' => 'Egg install script has been updated and will run whenever servers are installed.',
-            'egg_created' => 'A new egg was laid successfully. You will need to restart any running daemons to apply this new egg.',
+            'imported' => 'この Egg と関連する変数をインポートしました。',
+            'updated_via_import' => '指定されたファイルを使用してこの Egg を更新しました。',
+            'deleted' => '指定された Egg をパネルから削除しました。',
+            'updated' => 'Egg の設定を更新しました。',
+            'script_updated' => 'Egg のインストールスクリプトを更新しました。サーバーのインストール時に実行されます。',
+            'egg_created' => '新しい Egg を作成しました。この Egg を適用するには、稼働中のデーモンを再起動する必要があります。',
         ],
     ],
     'variables' => [
         'notices' => [
-            'variable_deleted' => 'The variable ":variable" has been deleted and will no longer be available to servers once rebuilt.',
-            'variable_updated' => 'The variable ":variable" has been updated. You will need to rebuild any servers using this variable in order to apply changes.',
-            'variable_created' => 'New variable has successfully been created and assigned to this egg.',
+            'variable_deleted' => '変数「:variable」を削除しました。再ビルド後、この変数はサーバーで利用できなくなります。',
+            'variable_updated' => '変数「:variable」を更新しました。変更を適用するには、この変数を使用しているサーバーを再ビルドしてください。',
+            'variable_created' => '新しい変数を作成し、この Egg に割り当てました。',
         ],
     ],
 ];
+
